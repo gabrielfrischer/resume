@@ -2,406 +2,73 @@
 
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="title" content="Jesse Qin, Web Designer">
-    <meta name="description" content="Jesse Qin, Web Designer, Software Engineer, B.S. Computer Science, UCSD">
-    <meta name="keywords" content="HTML,CSS,JavaScript,Profile,Resume">
-    <meta name="author" content="Jesse Qin">
-    <meta name=viewport content="width=device-width, initial-scale=.8, minimum-scale = .8, user-scalable=yes">
-    <meta property="og:image" content="./assets/jqlogo-gap.png">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="icon" href="assets/jglogo.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="assets/jqlogo.ico" type="image/x-icon" />
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/landing.js"></script>
-    <title>Jesse Qin</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+    <title>Gabriel Frischer</title>
 </head>
 
 <body>
-    <img style="display: none" src="assets/jqlogo-gap.png" alt="JQLogo">
-    <div class="mobile-navbar">
-        <div class="jqlogo2 h-link">
-            <a class="hidden-link" href="index.html"></a>
-            <svg width="100%" viewBox="330 105 340 340" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path fill="#383838" d="M499.835,425c-96.354,0-174.743-78.348-174.743-174.702c0-96.354,78.601-174.722,174.954-174.722
-                S675,153.935,675,250.288c0,48.177-36.422,138.795,0,174.712C628,425,548.012,425,499.835,425z M499.835,147.597
-                c-56.653,0-102.743,46.09-102.743,102.743c0,56.652,46.09,102.743,102.743,102.743c56.652,0,102.743-46.091,102.743-102.743
-                C602.578,193.687,556.487,147.597,499.835,147.597z"/>
-                <path fill="#68D142" d="M602.369,175.814c15.303,21.066,24.209,46.918,24.209,74.526c0,69.887-56.856,126.743-126.743,126.743
-                c-5.599,0-11.181-0.372-16.706-1.105c-3.364-0.446-23.412,19.7-21.044,20.311c12.284,3.166,24.984,4.795,37.75,4.795
-                c83.12,0,150.743-67.623,150.743-150.743c0-32.854-10.611-63.616-28.837-88.678c-0.482-0.663-0.97-1.322-1.462-1.977
-                C615.25,155.062,597.25,170.375,602.369,175.814z"/>
-                <path fill="#53E59B" d="M604.426,138.74c0.172,12.017-9.432,21.899-21.449,22.071c-12.016,0.172-21.898-9.43-22.068-21.449
-                c-0.174-12.016,9.43-21.897,21.447-22.07C594.371,117.121,604.254,126.724,604.426,138.74z"/>
-                <path fill="#565656" d="M349.056,267.675c1.678,14.796,5.562,29.43,11.697,43.394c1.437,3.019,21.592-11.591,20.01-14.364
-                c-4.661-11.904-7.427-24.322-8.338-36.816C371.774,256.068,348.271,261.956,349.056,267.675z"/>
-                <path fill="#565656" d="M361.486,188.364c-6.152,13.56-10.329,28.114-12.228,43.247c-0.317,3.327,24.478,1.131,24.542-2.059
-                c2.112-12.61,6.11-24.687,11.74-35.879C386.943,190.063,363.749,183.053,361.486,188.364z"/>
-                <path fill="#565656" d="M412.684,126.798c-12.227,8.498-23.266,18.861-32.647,30.888c-1.976,2.694,20.447,13.506,22.136,10.797
-                c8.271-9.75,17.888-18.076,28.455-24.807C433.682,141.29,417.346,123.395,412.684,126.798z"/>
-            </svg>
-        </div>
+<!-- FONTS -->
+
+<!-- PAGE STUFF -->
+<div class="rela-block page">
+    <div class="rela-block top-bar">
+        <div class="caps name"><div class="abs-center">Gabriel Frischer</div></div>
     </div>
-    <div class="burger-icon">
-        <div class="burger-icon-inner">
-            <div class="bar1 bar"></div>
-            <div class="bar2 bar">
-                <div class="navigation-mobile">
-                    <div class="m-nav-block">
-                        <div class="m-nav-button nav-about">
-                            ABOUT
-                        </div>
-                        <div class="m-nav-button nav-projects">
-                            PROJECTS
-                        </div>
-                        <div class="m-nav-button nav-contact">
-                            CONTACT
-                        </div>
-                        <div class="m-nav-button h-link">
-                            <a class="hidden-link" href="JesseQinResume.pdf" target="_blank"></a>
-                            RESUME
-                        </div>
-                    </div>
-                </div>
+    <div class="side-bar">
+        <div class="mugshot">
+            <div class="logo">
+                <svg viewbox="0 0 80 80" class="rela-block logo-svg">
+                    <path d="M 10 10 L 52 10 L 72 30 L 72 70 L 30 70 L 10 50 Z" stroke-width="2.5" fill="none"/>
+                </svg>
+                <p class="logo-text">kj</p>
             </div>
-            <div class="bar3 bar"></div>
         </div>
+        <p>123 My Place Drive</p>
+        <p>Astoria, New York 11105</p>
+        <p>1-800-CALLPLZ</p>
+        <p>emailsareforsquares@gmail.com</p><br>
+        <p class="rela-block social twitter">Twitter stuff</p>
+        <p class="rela-block social pinterest">Pinterest things</p>
+        <p class="rela-block social linked-in">Linked-in man</p>
+        <p class="rela-block caps side-header">Expertise</p>
+        <p class="rela-block list-thing">HTML</p>
+        <p class="rela-block list-thing">CSS (Stylus)</p>
+        <p class="rela-block list-thing">JavaScript & jQuery</p>
+        <p class="rela-block list-thing">Killer Taste</p>
+        <p class="rela-block caps side-header">Education</p>
+        <p class="rela-block list-thing">Advanced potion making</p>
+        <p class="rela-block list-thing">Degree in popping and locking</p>
+        <p class="rela-block list-thing">Knitting game on point</p>
+        <p class="rela-block list-thing">Culinary af</p>
     </div>
+    <div class="rela-block content-container">
+        <h2 class="rela-block caps title">Jr Front-End Developer</h2>
+        <div class="rela-block separator"></div>
+        <div class="rela-block caps greyed">Profile</div>
+        <p class="long-margin">Retro DIY quinoa, mixtape williamsburg master cleanse bushwick tumblr chillwave dreamcatcher hella wolf paleo. Knausgaard semiotics truffaut cornhole hoodie, YOLO meggings gochujang tofu. Locavore ugh kale chips iPhone biodiesel typewriter freegan, kinfolk brooklyn kitsch man bun. Austin neutra etsy, lumbersexual paleo cornhole sriracha kinfolk meggings kickstarter. </p>
+        <div class="rela-block caps greyed">Experience</div>
 
-    <div class="landing-noise">
-        <div class="landing">
-            <div class="landing-night"></div>
-            <div class="mountains">
-                <svg class="svg-mountains-1" width="100%" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="mountains-1" d="M -2 0 l 40 60 l 5 -20 l 5 10 l 15 -40 l 50 90 l 10 -20 l 5 10 l 50 -85 l 50 140 l 15 -25 l 5 -10 l 55 45 l 10 -20 l 5 10 l 60 -140 l 100 150 l 5 -10 l 5 5 l 10 -20 l 5 5 l 30 -70 l 70 90 l 20 -30 l 5 5 l 20 -30 l 60 50 l 10 -5 l 100 100 l -1000 0"  stroke="#9E7748" stroke-width="2" fill="#000000"></path>
-                    <path class="mountains-1-night" d="M -2 0 l 40 60 l 5 -20 l 5 10 l 15 -40 l 50 90 l 10 -20 l 5 10 l 50 -85 l 50 140 l 15 -25 l 5 -10 l 55 45 l 10 -20 l 5 10 l 60 -140 l 100 150 l 5 -10 l 5 5 l 10 -20 l 5 5 l 30 -70 l 70 90 l 20 -30 l 5 5 l 20 -30 l 60 50 l 10 -5 l 100 100 l -1000 0"  stroke="#021435" stroke-width="2" fill="#000000"></path>
-                </svg>
-            </div>
-            <div class="mountains2">
-                <svg class="svg-mountains-2" width="100%" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="mountains-2" d="M 800 0 l -60 70 l -10 -20 l -5 10 l -25 -40 l -20 45 l -5 -10 l -35 60 l -5 -10 l -5 5 l -50 -75 l -60 95 l -10 -20 l -5 10 l -30 -55 l -70 80 l -10 -20 l -5 5 l -60 -100 l -100 110 l -5 -5 l -30 35 l -70 -80 l -50 60 l -5 -5 l -5 5 l -5 -10 l -60 60 l 0 200 l 1000 0"  stroke="#795028" stroke-width="2" fill="#021435"></path>
-                    <path class="mountains-2-night" d="M 800 0 l -60 70 l -10 -20 l -5 10 l -25 -40 l -20 45 l -5 -10 l -35 60 l -5 -10 l -5 5 l -50 -75 l -60 95 l -10 -20 l -5 10 l -30 -55 l -70 80 l -10 -20 l -5 5 l -60 -100 l -100 110 l -5 -5 l -30 35 l -70 -80 l -50 60 l -5 -5 l -5 5 l -5 -10 l -60 60 l 0 200 l 1000 0"  stroke="#000000" stroke-width="2" fill="#000000"></path>
-                </svg>
-            </div>
-            <div class="sun">
-                <svg class="svg-sun" width="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="sun-1" d="M 15 120 a45,45 0 0,1 220,0 a-45,-45, 0 0,1 -220,0"  stroke="#FFF103" stroke-width="3" fill="#FFF103"></path>
-                </svg>
-            </div>
-            <div class="moon">
-                <svg class="svg-moon" width="100%" viewBox="-40 0 370 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="moon-1" d="M201,224.694c-33.907,0-66.801-13.633-90.765-37.597C86.272,163.135,72.64,130.241,72.64,96.333
-                    c0-28.606,9.703-56.49,27.126-78.9c-17.678,6.888-33.937,17.381-47.523,30.968c-25.764,25.763-40.419,61.126-40.419,97.581
-                    s14.656,71.817,40.419,97.581c25.763,25.763,61.126,40.419,97.581,40.419s71.817-14.656,97.581-40.419
-                    c12.592-12.593,22.521-27.481,29.393-43.667C254.942,215.85,228.302,224.694,201,224.694z"  stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF"></path>
-                </svg>
-            </div>
-            <div class="cloud cloud1">
-                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
-                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
-                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
-                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
-                </svg>
-            </div>
-            <div class="cloud cloud2">
-                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
-                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
-                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
-                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
-                </svg>
-            </div>
-            <div class="cloud cloud3">
-                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
-                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
-                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
-                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
-                </svg>
-            </div>
-            <div class="landing-text">
-                <div class="jqtext">
-
-                    <svg width="732.3" height="75.201" viewBox="0 0 732.3 75.201" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="none" style="stroke:#000;stroke-width:0.25mm;fill:none"><path class="jqt-e jqt" d="M 32.4 44.4 L 32.4 36.9 L 55.9 36.9 L 55.9 74 L 47.5 74 L 47.5 67 A 35.883 35.883 0 0 1 43.122 70.292 A 47.354 47.354 0 0 1 39 72.65 A 23.594 23.594 0 0 1 29.594 75.15 A 28.131 28.131 0 0 1 27.9 75.2 Q 21.8 75.2 16.7 72.8 Q 11.6 70.4 7.9 65.9 Q 4.2 61.4 2.1 55.05 A 40.876 40.876 0 0 1 0.347 46.963 A 52.887 52.887 0 0 1 0 40.8 Q 0 32.4 2.15 25.45 A 37.954 37.954 0 0 1 5.495 17.685 A 32.27 32.27 0 0 1 8.4 13.45 Q 12.5 8.4 18.45 5.6 A 29.262 29.262 0 0 1 27.191 3.101 A 37.251 37.251 0 0 1 32 2.8 A 46.269 46.269 0 0 1 37.801 3.146 Q 40.751 3.519 43.311 4.295 A 28.422 28.422 0 0 1 43.65 4.4 Q 48.7 6 53.2 8.5 L 49.7 16.4 Q 45.5 14.1 41.2 12.6 Q 36.9 11.1 31.5 11.1 A 20.332 20.332 0 0 0 24.325 12.354 A 19.286 19.286 0 0 0 22.8 13 A 19.039 19.039 0 0 0 16.175 18.257 A 22.125 22.125 0 0 0 15.9 18.6 A 24.411 24.411 0 0 0 13.033 23.316 A 32.852 32.852 0 0 0 11.35 27.75 A 37.177 37.177 0 0 0 10.063 33.978 A 50.891 50.891 0 0 0 9.7 40.2 A 45.369 45.369 0 0 0 10.052 45.986 A 33.62 33.62 0 0 0 11.2 51.45 Q 12.7 56.4 15.4 59.85 A 18.128 18.128 0 0 0 21.271 64.809 A 17.714 17.714 0 0 0 21.85 65.1 Q 25.6 66.9 30.1 66.9 Q 32.9 66.9 35.4 66.25 A 24.422 24.422 0 0 0 38.787 65.109 A 21.248 21.248 0 0 0 40 64.55 Q 42.1 63.5 43.85 62.25 A 26.8 26.8 0 0 0 45.677 60.828 A 21.171 21.171 0 0 0 46.9 59.7 L 46.9 44.4 L 32.4 44.4 Z" id="0" vector-effect="non-scaling-stroke"/><path d="M 106 26.2 L 106 22 L 114.2 22 L 114.2 61.4 A 12.15 12.15 0 0 0 114.302 63.036 Q 114.634 65.47 116.05 66.35 Q 117.9 67.5 120.1 67.5 L 118.2 74.5 A 17.722 17.722 0 0 1 113.936 74.028 Q 108.299 72.628 106.704 67.08 A 13.59 13.59 0 0 1 106.6 66.7 Q 105.4 68.3 103.85 69.85 A 18.204 18.204 0 0 1 100.556 72.444 A 20.291 20.291 0 0 1 100.3 72.6 A 17.462 17.462 0 0 1 97.167 74.067 A 20.704 20.704 0 0 1 95.8 74.5 A 18.765 18.765 0 0 1 92.48 75.102 A 23.457 23.457 0 0 1 90.3 75.2 Q 85.4 75.2 81.15 73.3 Q 76.9 71.4 73.75 67.9 A 24.891 24.891 0 0 1 69.894 62.12 A 30.206 30.206 0 0 1 68.75 59.45 Q 66.9 54.5 66.9 48.3 Q 66.9 42.5 68.7 37.45 A 27.784 27.784 0 0 1 71.861 31.144 A 24.797 24.797 0 0 1 73.75 28.7 Q 77 25 81.55 22.9 A 23.124 23.124 0 0 1 90.329 20.825 A 27.082 27.082 0 0 1 91.5 20.8 A 22.584 22.584 0 0 1 96.294 21.29 A 18.703 18.703 0 0 1 99.65 22.35 A 26.002 26.002 0 0 1 103.937 24.644 A 22.103 22.103 0 0 1 106 26.2 Z M 105.2 60.7 L 105.2 32.8 Q 102.5 30.9 99.25 29.75 Q 96 28.6 92.4 28.6 A 16.142 16.142 0 0 0 87.934 29.203 A 14.448 14.448 0 0 0 85.8 30 Q 82.8 31.4 80.65 33.95 A 17.393 17.393 0 0 0 78.143 37.953 A 21.502 21.502 0 0 0 77.3 40.1 A 23.426 23.426 0 0 0 76.218 45.381 A 28.621 28.621 0 0 0 76.1 48 A 25.723 25.723 0 0 0 76.569 52.996 A 21.781 21.781 0 0 0 77.3 55.75 A 19.283 19.283 0 0 0 79.177 59.774 A 16.545 16.545 0 0 0 80.7 61.85 Q 82.9 64.4 85.85 65.8 A 14.679 14.679 0 0 0 91.649 67.188 A 17.126 17.126 0 0 0 92.3 67.2 Q 96.1 67.2 99.5 65.4 Q 102.9 63.6 105.2 60.7 Z" id="1" vector-effect="non-scaling-stroke"/><path d="M 132.1 74 L 132.1 0 L 141.1 0 L 141.1 27.4 A 17.447 17.447 0 0 1 142.071 26.418 Q 142.585 25.936 143.188 25.436 A 29.965 29.965 0 0 1 143.6 25.1 A 19.429 19.429 0 0 1 146.269 23.315 A 22.041 22.041 0 0 1 146.95 22.95 A 18.788 18.788 0 0 1 149.439 21.899 A 23.04 23.04 0 0 1 151.1 21.4 A 18.56 18.56 0 0 1 154.372 20.865 A 22.623 22.623 0 0 1 156.1 20.8 Q 160.6 20.8 164.75 22.6 Q 168.9 24.4 172.05 27.8 A 23.706 23.706 0 0 1 175.646 32.952 A 29.885 29.885 0 0 1 177.1 36.2 Q 179 41.2 179 47.5 A 33.315 33.315 0 0 1 178.314 54.388 A 27.75 27.75 0 0 1 177 58.8 A 30.149 30.149 0 0 1 173.993 64.609 A 25.829 25.829 0 0 1 171.7 67.55 Q 168.4 71.2 164.15 73.2 A 20.584 20.584 0 0 1 157.555 75.09 A 19.225 19.225 0 0 1 155.5 75.2 A 22.394 22.394 0 0 1 147.577 73.805 A 21.462 21.462 0 0 1 147.05 73.6 Q 143.1 72 140.5 69.7 L 140.5 74 L 132.1 74 Z M 141.1 35.4 L 141.1 63.2 A 17.99 17.99 0 0 0 144.73 65.385 A 21.802 21.802 0 0 0 146.5 66.1 A 19.462 19.462 0 0 0 152.664 67.196 A 22.039 22.039 0 0 0 153.1 67.2 A 16.26 16.26 0 0 0 158.919 66.166 A 15.526 15.526 0 0 0 159.8 65.8 Q 162.9 64.4 165.1 61.85 A 17.95 17.95 0 0 0 167.843 57.514 A 21.678 21.678 0 0 0 168.55 55.75 A 21.806 21.806 0 0 0 169.623 50.996 A 27.857 27.857 0 0 0 169.8 47.8 Q 169.8 43.3 168.55 39.75 Q 167.3 36.2 165.15 33.7 Q 163 31.2 160.15 29.9 Q 157.3 28.6 154.1 28.6 A 14.741 14.741 0 0 0 148.474 29.663 A 14.054 14.054 0 0 0 146.35 30.75 Q 142.9 32.9 141.1 35.4 Z" id="2" vector-effect="non-scaling-stroke"/><path d="M 222.4 21.4 L 219.7 30.7 A 9.763 9.763 0 0 0 217.555 30.088 Q 216.46 29.9 215.2 29.9 Q 212.4 29.9 209.75 31.1 A 13.202 13.202 0 0 0 205.639 34.049 A 15.59 15.59 0 0 0 205.05 34.7 Q 203.061 37.029 201.826 40.628 A 26.039 26.039 0 0 0 201.75 40.85 A 22.895 22.895 0 0 0 200.853 44.662 Q 200.567 46.554 200.513 48.697 A 40 40 0 0 0 200.5 49.7 L 200.5 74 L 191.5 74 L 191.5 22 L 200.2 22 L 200.2 33.3 Q 201.1 30.9 202.6 28.6 Q 204.1 26.3 206.15 24.6 A 16.676 16.676 0 0 1 209.991 22.23 A 19.32 19.32 0 0 1 210.9 21.85 Q 213.6 20.8 216.9 20.8 Q 218.4 20.8 219.85 20.95 A 19.695 19.695 0 0 1 221.052 21.11 Q 221.645 21.209 222.164 21.338 A 11.443 11.443 0 0 1 222.4 21.4 Z" id="3" vector-effect="non-scaling-stroke"/><path d="M 240.4 22 L 240.4 74 L 231.4 74 L 231.4 22 L 240.4 22 Z M 231.508 11.307 A 6.059 6.059 0 0 0 235.9 13.1 A 8.264 8.264 0 0 0 237.556 12.942 A 5.661 5.661 0 0 0 240.5 11.4 A 5.588 5.588 0 0 0 241.971 8.768 A 7.987 7.987 0 0 0 242.2 6.8 A 7.26 7.26 0 0 0 242.2 6.719 A 6.06 6.06 0 0 0 240.35 2.35 A 7.395 7.395 0 0 0 240.292 2.293 A 6.059 6.059 0 0 0 235.9 0.5 A 8.264 8.264 0 0 0 234.245 0.658 A 5.661 5.661 0 0 0 231.3 2.2 A 5.588 5.588 0 0 0 229.83 4.832 A 7.987 7.987 0 0 0 229.6 6.8 A 7.26 7.26 0 0 0 229.601 6.881 A 6.06 6.06 0 0 0 231.45 11.25 A 7.395 7.395 0 0 0 231.508 11.307 Z" id="4" vector-effect="non-scaling-stroke"/><path d="M 298.5 51.7 L 262.1 51.7 A 24.088 24.088 0 0 0 263.239 56.725 Q 264.575 60.538 267.2 63.1 Q 271.4 67.2 278.3 67.2 Q 282.8 67.2 286.4 66.25 Q 290 65.3 293.3 63.8 L 295.4 71.5 A 35.406 35.406 0 0 1 290.581 73.342 A 44.267 44.267 0 0 1 287.3 74.2 A 40.711 40.711 0 0 1 282.209 74.98 A 54.607 54.607 0 0 1 277.2 75.2 A 29.178 29.178 0 0 1 271.404 74.647 A 23.608 23.608 0 0 1 267.1 73.35 Q 262.6 71.5 259.45 68.05 A 22.127 22.127 0 0 1 255.804 62.55 A 27.574 27.574 0 0 1 254.6 59.55 A 31.581 31.581 0 0 1 253.249 53.593 A 42.813 42.813 0 0 1 252.9 48 A 34.878 34.878 0 0 1 253.704 40.403 A 30.597 30.597 0 0 1 254.6 37.2 A 27.699 27.699 0 0 1 257.414 31.251 A 24.152 24.152 0 0 1 259.4 28.55 Q 262.5 24.9 266.8 22.85 Q 271.1 20.8 276.4 20.8 A 27.908 27.908 0 0 1 281.304 21.211 A 20.619 20.619 0 0 1 286.2 22.7 Q 290.4 24.6 293.2 27.9 Q 296 31.2 297.4 35.6 A 30.348 30.348 0 0 1 298.797 44.442 A 34.055 34.055 0 0 1 298.8 44.9 A 75.204 75.204 0 0 1 298.51 51.597 A 69.426 69.426 0 0 1 298.5 51.7 Z M 262 44.4 L 290.5 44.4 A 24.355 24.355 0 0 0 290.096 39.815 Q 289.6 37.231 288.496 35.207 A 12.422 12.422 0 0 0 286.7 32.7 A 12.488 12.488 0 0 0 279.74 28.924 A 18.395 18.395 0 0 0 276.2 28.6 Q 270.3 28.6 266.55 32.6 A 14.739 14.739 0 0 0 263.758 37.005 Q 262.933 38.961 262.453 41.361 A 32.287 32.287 0 0 0 262 44.4 Z" id="5" vector-effect="non-scaling-stroke"/><path d="M 319.3 0 L 319.3 56.8 A 20.644 20.644 0 0 0 319.488 59.688 Q 319.951 62.952 321.55 64.8 A 7.363 7.363 0 0 0 326.134 67.276 A 10.724 10.724 0 0 0 327.8 67.4 Q 329.7 67.4 331.5 66.95 Q 333.3 66.5 334.7 65.9 L 336.9 73.2 Q 335.501 73.822 333.588 74.323 A 34.978 34.978 0 0 1 332.45 74.6 A 23.816 23.816 0 0 1 329.295 75.085 A 30.514 30.514 0 0 1 326.6 75.2 A 21.419 21.419 0 0 1 322.49 74.819 A 18.058 18.058 0 0 1 320.15 74.2 Q 317.2 73.2 315 71.1 A 13.281 13.281 0 0 1 312.522 67.827 A 16.994 16.994 0 0 1 311.55 65.7 Q 310.3 62.4 310.3 57.7 L 310.3 0 L 319.3 0 Z" id="6" vector-effect="non-scaling-stroke"/><path d="M 376.4 74 L 376.4 4 L 417.9 4 L 417.9 12.2 L 385.9 12.2 L 385.9 33.6 L 412.6 33.6 L 412.6 41.4 L 385.9 41.4 L 385.9 74 L 376.4 74 Z" id="8" vector-effect="non-scaling-stroke"/><path d="M 459.8 21.4 L 457.1 30.7 A 9.763 9.763 0 0 0 454.955 30.088 Q 453.86 29.9 452.6 29.9 Q 449.8 29.9 447.15 31.1 A 13.202 13.202 0 0 0 443.039 34.049 A 15.59 15.59 0 0 0 442.45 34.7 Q 440.461 37.029 439.226 40.628 A 26.039 26.039 0 0 0 439.15 40.85 A 22.895 22.895 0 0 0 438.253 44.662 Q 437.967 46.554 437.913 48.697 A 40 40 0 0 0 437.9 49.7 L 437.9 74 L 428.9 74 L 428.9 22 L 437.6 22 L 437.6 33.3 Q 438.5 30.9 440 28.6 Q 441.5 26.3 443.55 24.6 A 16.676 16.676 0 0 1 447.391 22.23 A 19.32 19.32 0 0 1 448.3 21.85 Q 451 20.8 454.3 20.8 Q 455.8 20.8 457.25 20.95 A 19.695 19.695 0 0 1 458.452 21.11 Q 459.045 21.209 459.564 21.338 A 11.443 11.443 0 0 1 459.8 21.4 Z" id="9" vector-effect="non-scaling-stroke"/><path d="M 477.8 22 L 477.8 74 L 468.8 74 L 468.8 22 L 477.8 22 Z M 468.908 11.307 A 6.059 6.059 0 0 0 473.3 13.1 A 8.264 8.264 0 0 0 474.956 12.942 A 5.661 5.661 0 0 0 477.9 11.4 A 5.588 5.588 0 0 0 479.371 8.768 A 7.987 7.987 0 0 0 479.6 6.8 A 7.26 7.26 0 0 0 479.6 6.719 A 6.06 6.06 0 0 0 477.75 2.35 A 7.395 7.395 0 0 0 477.692 2.293 A 6.059 6.059 0 0 0 473.3 0.5 A 8.264 8.264 0 0 0 471.645 0.658 A 5.661 5.661 0 0 0 468.7 2.2 A 5.588 5.588 0 0 0 467.23 4.832 A 7.987 7.987 0 0 0 467 6.8 A 7.26 7.26 0 0 0 467.001 6.881 A 6.06 6.06 0 0 0 468.85 11.25 A 7.395 7.395 0 0 0 468.908 11.307 Z" id="10" vector-effect="non-scaling-stroke"/><path d="M 489.3 69.8 L 493.1 62.3 A 17.402 17.402 0 0 0 496.453 64.603 A 23.322 23.322 0 0 0 499.65 66 A 24.791 24.791 0 0 0 507.123 67.383 A 28.367 28.367 0 0 0 508.1 67.4 Q 513.493 67.4 516.335 65.685 A 7.738 7.738 0 0 0 516.55 65.55 Q 519.4 63.7 519.4 60.8 A 7.211 7.211 0 0 0 519.016 58.432 A 6.796 6.796 0 0 0 518.85 58 A 5.377 5.377 0 0 0 518.137 56.803 Q 517.75 56.304 517.22 55.821 A 10.185 10.185 0 0 0 516.85 55.5 A 12.59 12.59 0 0 0 515.615 54.607 Q 514.931 54.169 514.102 53.737 A 27.422 27.422 0 0 0 512.9 53.15 Q 511.221 52.377 508.864 51.492 A 115.589 115.589 0 0 0 506.4 50.6 A 47.106 47.106 0 0 1 502.146 48.945 Q 497.875 47.022 495.4 44.65 A 11.347 11.347 0 0 1 492.17 38.736 A 16.941 16.941 0 0 1 491.8 35.1 Q 491.8 32.1 493.15 29.5 A 13.242 13.242 0 0 1 496.136 25.704 A 15.791 15.791 0 0 1 497.05 24.95 A 17.33 17.33 0 0 1 500.466 22.934 A 22.664 22.664 0 0 1 503.25 21.9 A 24.963 24.963 0 0 1 507.392 21.046 A 34.316 34.316 0 0 1 511.6 20.8 Q 516.252 20.8 519.864 21.674 A 24.48 24.48 0 0 1 520.55 21.85 A 38.541 38.541 0 0 1 524.858 23.291 A 31.513 31.513 0 0 1 527.5 24.5 L 525 31.9 Q 522.3 30.3 518.85 29.3 A 25.024 25.024 0 0 0 514.367 28.453 A 31.837 31.837 0 0 0 511.2 28.3 A 20.632 20.632 0 0 0 508.264 28.495 Q 505.178 28.94 503.3 30.4 A 9.322 9.322 0 0 0 501.943 31.673 Q 501.24 32.492 500.905 33.365 A 4.529 4.529 0 0 0 500.6 35 A 5.568 5.568 0 0 0 500.794 36.488 A 4.93 4.93 0 0 0 501.05 37.2 Q 501.425 38.032 502.317 38.794 A 7.753 7.753 0 0 0 502.7 39.1 Q 503.9 40 505.9 40.9 A 38.11 38.11 0 0 0 507.541 41.589 Q 509.025 42.175 510.9 42.8 Q 514.652 44.102 517.524 45.432 A 45.049 45.049 0 0 1 519.2 46.25 A 27.212 27.212 0 0 1 521.915 47.841 Q 523.215 48.713 524.241 49.659 A 15.68 15.68 0 0 1 524.7 50.1 A 13.836 13.836 0 0 1 526.638 52.502 A 11.394 11.394 0 0 1 527.7 54.65 A 14.613 14.613 0 0 1 528.494 58.102 A 18.255 18.255 0 0 1 528.6 60.1 A 14.031 14.031 0 0 1 528.072 64.009 A 12.235 12.235 0 0 1 527.1 66.4 Q 525.6 69.2 522.9 71.15 A 17.953 17.953 0 0 1 519.394 73.104 A 23.774 23.774 0 0 1 516.35 74.15 Q 512.5 75.2 507.8 75.2 A 41.103 41.103 0 0 1 502.293 74.848 A 30.514 30.514 0 0 1 497.1 73.7 A 30.72 30.72 0 0 1 493.294 72.215 Q 491.325 71.283 489.744 70.133 A 18.536 18.536 0 0 1 489.3 69.8 Z" id="11" vector-effect="non-scaling-stroke"/><path d="M 576.5 23.9 L 573.8 31.5 A 35.532 35.532 0 0 0 571.17 30.352 Q 569.819 29.83 568.567 29.494 A 21.586 21.586 0 0 0 568.4 29.45 Q 565.9 28.8 562.8 28.8 Q 559.3 28.8 556.25 30.1 Q 553.2 31.4 551 33.85 A 16.788 16.788 0 0 0 548.329 37.914 A 20.581 20.581 0 0 0 547.55 39.8 A 20.918 20.918 0 0 0 546.54 44.054 A 28.088 28.088 0 0 0 546.3 47.8 A 25.667 25.667 0 0 0 546.784 52.865 A 21.996 21.996 0 0 0 547.45 55.4 A 20.488 20.488 0 0 0 549.537 59.902 A 18.248 18.248 0 0 0 550.7 61.55 Q 552.8 64.2 555.7 65.7 Q 558.6 67.2 562.2 67.2 Q 566 67.2 568.7 66.4 A 25.095 25.095 0 0 0 571.478 65.385 Q 572.847 64.796 574.305 64.006 A 41.473 41.473 0 0 0 574.5 63.9 L 577.3 71.5 Q 574.1 73.2 570.3 74.2 Q 566.619 75.169 561.906 75.199 A 47.525 47.525 0 0 1 561.6 75.2 A 26.988 26.988 0 0 1 555.687 74.576 A 22.271 22.271 0 0 1 551.5 73.2 Q 547 71.2 543.8 67.6 A 24.641 24.641 0 0 1 539.621 60.973 A 29.254 29.254 0 0 1 538.85 59 A 31.204 31.204 0 0 1 537.271 51.652 A 38.153 38.153 0 0 1 537.1 48 A 31.882 31.882 0 0 1 538.34 39.032 A 29.616 29.616 0 0 1 538.85 37.45 A 25.969 25.969 0 0 1 543.1 29.745 A 24.654 24.654 0 0 1 543.9 28.8 Q 547.2 25.1 551.85 22.95 A 23.318 23.318 0 0 1 559.129 20.97 A 28.889 28.889 0 0 1 562.3 20.8 A 42.637 42.637 0 0 1 565.884 20.942 Q 568.193 21.137 570.1 21.6 Q 573.4 22.4 576.5 23.9 Z" id="12" vector-effect="non-scaling-stroke"/><path d="M 596.8 0 L 596.8 30.3 Q 599.6 26.2 603.85 23.5 A 17.126 17.126 0 0 1 610.39 21.077 A 22.699 22.699 0 0 1 614 20.8 A 23.225 23.225 0 0 1 619.066 21.318 Q 624.16 22.456 627.15 26.1 Q 631.275 31.126 631.489 39.209 A 33.764 33.764 0 0 1 631.5 40.1 L 631.5 74 L 622.5 74 L 622.5 41.1 Q 622.5 36.803 621.051 33.841 A 10.747 10.747 0 0 0 619.95 32.05 Q 617.4 28.7 612.6 28.7 Q 610.3 28.7 608.05 29.55 Q 605.8 30.4 603.8 31.9 A 26.152 26.152 0 0 0 600.511 34.847 A 29.423 29.423 0 0 0 600 35.4 Q 598.2 37.4 596.8 39.6 L 596.8 74 L 587.8 74 L 587.8 0 L 596.8 0 Z" id="13" vector-effect="non-scaling-stroke"/><path d="M 689.1 51.7 L 652.7 51.7 A 24.088 24.088 0 0 0 653.839 56.725 Q 655.175 60.538 657.8 63.1 Q 662 67.2 668.9 67.2 Q 673.4 67.2 677 66.25 Q 680.6 65.3 683.9 63.8 L 686 71.5 A 35.406 35.406 0 0 1 681.181 73.342 A 44.267 44.267 0 0 1 677.9 74.2 A 40.711 40.711 0 0 1 672.809 74.98 A 54.607 54.607 0 0 1 667.8 75.2 A 29.178 29.178 0 0 1 662.004 74.647 A 23.608 23.608 0 0 1 657.7 73.35 Q 653.2 71.5 650.05 68.05 A 22.127 22.127 0 0 1 646.404 62.55 A 27.574 27.574 0 0 1 645.2 59.55 A 31.581 31.581 0 0 1 643.849 53.593 A 42.813 42.813 0 0 1 643.5 48 A 34.878 34.878 0 0 1 644.304 40.403 A 30.597 30.597 0 0 1 645.2 37.2 A 27.699 27.699 0 0 1 648.014 31.251 A 24.152 24.152 0 0 1 650 28.55 Q 653.1 24.9 657.4 22.85 Q 661.7 20.8 667 20.8 A 27.908 27.908 0 0 1 671.904 21.211 A 20.619 20.619 0 0 1 676.8 22.7 Q 681 24.6 683.8 27.9 Q 686.6 31.2 688 35.6 A 30.348 30.348 0 0 1 689.397 44.442 A 34.055 34.055 0 0 1 689.4 44.9 A 75.204 75.204 0 0 1 689.11 51.597 A 69.426 69.426 0 0 1 689.1 51.7 Z M 652.6 44.4 L 681.1 44.4 A 24.355 24.355 0 0 0 680.696 39.815 Q 680.2 37.231 679.096 35.207 A 12.422 12.422 0 0 0 677.3 32.7 A 12.488 12.488 0 0 0 670.34 28.924 A 18.395 18.395 0 0 0 666.8 28.6 Q 660.9 28.6 657.15 32.6 A 14.739 14.739 0 0 0 654.358 37.005 Q 653.533 38.961 653.053 41.361 A 32.287 32.287 0 0 0 652.6 44.4 Z" id="14" vector-effect="non-scaling-stroke"/><path d="M 732.3 21.4 L 729.6 30.7 A 9.763 9.763 0 0 0 727.455 30.088 Q 726.36 29.9 725.1 29.9 Q 722.3 29.9 719.65 31.1 A 13.202 13.202 0 0 0 715.539 34.049 A 15.59 15.59 0 0 0 714.95 34.7 Q 712.961 37.029 711.726 40.628 A 26.039 26.039 0 0 0 711.65 40.85 A 22.895 22.895 0 0 0 710.753 44.662 Q 710.467 46.554 710.413 48.697 A 40 40 0 0 0 710.4 49.7 L 710.4 74 L 701.4 74 L 701.4 22 L 710.1 22 L 710.1 33.3 Q 711 30.9 712.5 28.6 Q 714 26.3 716.05 24.6 A 16.676 16.676 0 0 1 719.891 22.23 A 19.32 19.32 0 0 1 720.8 21.85 Q 723.5 20.8 726.8 20.8 Q 728.3 20.8 729.75 20.95 A 19.695 19.695 0 0 1 730.952 21.11 Q 731.545 21.209 732.064 21.338 A 11.443 11.443 0 0 1 732.3 21.4 Z" id="15" vector-effect="non-scaling-stroke"/></g></svg>
-                </div>
-                <div class="jqtext2nd">
-                    <div class="jqtext2">SELF TAUGHT WEB DEVELOPER</div>
-                    <div class="jqtext3	">B.S. Human Biology, UCSD</div>
-                </div>
-            </div>
-            <div class="birds">
-                <div class="bird bird1">
-                    <div class="bird-left">
-                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
-                        </svg>
-                    </div>
-                    <div class="bird-right">
-                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="bird bird2">
-                    <div class="bird-left">
-                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
-                        </svg>
-                    </div>
-                    <div class="bird-right">
-                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="bird bird3">
-                    <div class="bird-left">
-                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
-                        </svg>
-                    </div>
-                    <div class="bird-right">
-                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="grass">
-                <div class="grass-night"></div>
-                <div class="navigation">
-                    <div class="nav-button margin-l nav-about">ABOUT</div>
-                    <div class="nav-button nav-projects">PROJECTS</div>
-                    <div class="nav-button">
-                        <div class="jqlogo h-link">
-                            <a class="hidden-link" href="index.html"></a>
-                            <svg width="100%" viewBox="330 105 340 340" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <path fill="#383838" d="M499.835,425c-96.354,0-174.743-78.348-174.743-174.702c0-96.354,78.601-174.722,174.954-174.722
-                                S675,153.935,675,250.288c0,48.177-36.422,138.795,0,174.712C628,425,548.012,425,499.835,425z M499.835,147.597
-                                c-56.653,0-102.743,46.09-102.743,102.743c0,56.652,46.09,102.743,102.743,102.743c56.652,0,102.743-46.091,102.743-102.743
-                                C602.578,193.687,556.487,147.597,499.835,147.597z"/>
-                                <path fill="#68D142" d="M602.369,175.814c15.303,21.066,24.209,46.918,24.209,74.526c0,69.887-56.856,126.743-126.743,126.743
-                                c-5.599,0-11.181-0.372-16.706-1.105c-3.364-0.446-23.412,19.7-21.044,20.311c12.284,3.166,24.984,4.795,37.75,4.795
-                                c83.12,0,150.743-67.623,150.743-150.743c0-32.854-10.611-63.616-28.837-88.678c-0.482-0.663-0.97-1.322-1.462-1.977
-                                C615.25,155.062,597.25,170.375,602.369,175.814z"/>
-                                <path fill="#53E59B" d="M604.426,138.74c0.172,12.017-9.432,21.899-21.449,22.071c-12.016,0.172-21.898-9.43-22.068-21.449
-                                c-0.174-12.016,9.43-21.897,21.447-22.07C594.371,117.121,604.254,126.724,604.426,138.74z"/>
-                                <path fill="#565656" d="M349.056,267.675c1.678,14.796,5.562,29.43,11.697,43.394c1.437,3.019,21.592-11.591,20.01-14.364
-                                c-4.661-11.904-7.427-24.322-8.338-36.816C371.774,256.068,348.271,261.956,349.056,267.675z"/>
-                                <path fill="#565656" d="M361.486,188.364c-6.152,13.56-10.329,28.114-12.228,43.247c-0.317,3.327,24.478,1.131,24.542-2.059
-                                c2.112-12.61,6.11-24.687,11.74-35.879C386.943,190.063,363.749,183.053,361.486,188.364z"/>
-                                <path fill="#565656" d="M412.684,126.798c-12.227,8.498-23.266,18.861-32.647,30.888c-1.976,2.694,20.447,13.506,22.136,10.797
-                                c8.271-9.75,17.888-18.076,28.455-24.807C433.682,141.29,417.346,123.395,412.684,126.798z"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="nav-button nav-contact">CONTACT</div>
-                    <div class="nav-button margin-r h-link">
-                        <a class="hidden-link" href="JesseQinResume.pdf" target="_blank"></a>
-                        RESUME
-                    </div>
-                </div>
-            </div>
-            <div class="mobile-arrow">
-                <svg width="100%" viewBox="42 15 924 924" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- 	<path class="icon-arrow-down" fill="#09B300" d="M792.73 438.426c-20.838 21.402-240.384 230.554-240.384 230.554-11.162 11.418-25.754 17.101-40.346 17.101-14.643 0-29.235-5.683-40.346-17.101 0 0-219.546-209.152-240.435-230.554-20.838-21.402-22.272-59.853 0-82.739 22.323-22.835 53.402-24.627 80.691 0l200.090 191.898 200.038-191.846c27.341-24.627 58.47-22.835 80.691 0 22.323 22.835 20.941 61.338 0 82.688z"></path> -->
-                    <path class="icon-arrow-down" fill="#09B300" <path class="path1" d="M687.002 389.171c13.875-13.722 36.301-13.722 50.125 0 13.875 13.722 13.875 35.891 0 49.613l-200.038 196.096c-13.875 13.722-36.301 13.722-50.125 0l-200.090-196.096c-13.824-13.722-13.824-35.891 0-49.613 13.875-13.722 36.25-13.722 50.125 0l175.002 160.768 175.002-160.768z"></path>
-                </svg>
-            </div>
-        </div>
+        <h3>Job #1</h3>
+        <p class="light">First job description</p>
+        <p class="justified">Plaid gentrify put a bird on it, pickled XOXO farm-to-table irony raw denim messenger bag leggings. Hoodie PBR&B photo booth, vegan chillwave meh paleo freegan ramps. Letterpress shabby chic fixie semiotics. Meditation sriracha banjo pour-over. Gochujang pickled hashtag mixtape cred chambray. Freegan microdosing VHS, 90's bicycle rights aesthetic hella PBR&B. </p>
+        
+        <h3>Job #2</h3>
+        <p class="light">Second Job Description</p>
+        <p class="justified">Beard before they sold out photo booth distillery health goth. Hammock franzen green juice meggings, ethical sriracha tattooed schlitz mixtape man bun stumptown swag whatever distillery blog. Affogato iPhone normcore, meggings actually direct trade lomo plaid franzen shoreditch. Photo booth pug paleo austin, pour-over banh mi scenester vice food truck slow-carb. Street art kogi normcore, vice everyday carry crucifix thundercats man bun raw denim echo park pork belly helvetica vinyl. </p>
+        
+        <h3>Job #3</h3>
+        <p class="light">Third Job Description</p>
+        <p class="justified">Next level roof party lo-fi fingerstache skateboard, kogi tumblr. Shabby chic put a bird on it chambray, 3 wolf moon swag beard brooklyn post-ironic taxidermy art party microdosing keffiyeh marfa. Put a bird on it 3 wolf moon cliche helvetica knausgaard. Mumblecore fingerstache lomo, artisan freegan keffiyeh paleo kinfolk kale chips street art blog flannel.</p>
     </div>
+</div>
 
-
-    <div class="section1">
-
-        <div class="howdy fadein">
-            <div class="howdy-big-text">
-                <svg width="100%" viewBox="1 -4 176 59" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#454545" stroke-width="0" stroke="#454545">
-                    <path d="M9.425,32.921v26.288H2.916V0.791h6.509v26.288h14.354V0.791h6.509v58.418h-6.509V32.921H9.425z"/>
-                    <path d="M36.463,14.896c0-8.93,4.423-14.688,13.353-14.688c9.013,0,13.437,5.759,13.437,14.688v30.211
-                    c0,8.846-4.424,14.687-13.437,14.687c-8.93,0-13.353-5.841-13.353-14.687V14.896z M42.889,45.44c0,5.339,2.253,8.428,6.927,8.428
-                    c4.757,0,6.927-3.089,6.927-8.428V14.562c0-5.258-2.17-8.429-6.927-8.429c-4.674,0-6.927,3.171-6.927,8.429V45.44z"/>
-                    <path d="M84.949,59.209h-8.931L68.008,0.791h6.343l6.843,49.738l6.51-49.654h6.427l6.425,49.738l6.595-49.822h5.673l-7.927,58.418
-                    H96.3l-5.593-39.641L84.949,59.209z"/>
-                    <path d="M131.766,0.791c9.096,0,13.269,5.509,13.269,14.521v29.46c0,8.93-4.173,14.437-13.269,14.437h-13.687V0.791H131.766z
-                    M131.682,53.284c4.673,0,6.927-2.921,6.927-8.262V14.979c0-5.341-2.254-8.263-7.011-8.263h-7.009v46.568H131.682z"/>
-                    <path d="M160.221,38.262L147.87,0.791h6.76l9.098,28.709l9.179-28.709h6.178l-12.437,37.471v20.947h-6.427V38.262z"/>
-                </svg>
-            </div>
-            <span class="howdy-rest">I'm <span class="howdy-hl">Jesse Qin</span>, a master's student at UCSD studying computer science. I like running, climbing, and creating <span class="howdy-hl">aesthetic &amp; functional</span> design. </span>
-            <div class="line-1"></div>
-        </div>
-
-        <div class="threes">
-            <div class="third margin-l fadein">
-                <div class="third-circle">
-                    <svg width="100%" viewBox="-205 -285 1400 1400" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path class="third-circle-1" stroke="#FAFAFA" stroke-width="23" d="M1024 256c0-44.992-30.624-83.456-74.432-93.568l-416.416-96.096c-6.976-1.568-14.080-2.336-21.152-2.336s-14.176 0.768-21.6 2.432l-415.968 96c-43.84 10.112-74.432 48.576-74.432 93.568s30.624 83.456 74.4 93.568l85.6 19.744v270.688c0 84.928 97.216 160 352 160s352-75.072 352-160v-270.688l85.568-19.744c43.808-10.112 74.432-48.576 74.432-93.568zM800 640c0 35.36-96 96-288 96s-288-60.64-288-96v-255.904l266.816 61.568c6.976 1.568 14.112 2.336 21.184 2.336s14.208-0.768 21.568-2.432l266.432-61.472v255.904zM519.2 383.2c-2.4 0.512-4.8 0.8-7.2 0.8s-4.832-0.288-7.2-0.8l-416-96c-14.528-3.36-24.8-16.288-24.8-31.2s10.272-27.84 24.8-31.2l416-96c2.368-0.512 4.768-0.8 7.2-0.8s4.832 0.288 7.2 0.8l416 96c14.496 3.36 24.8 16.288 24.8 31.2s-10.304 27.84-24.8 31.2l-416 96zM928 416 "></path>
-                    </svg>
-                </div>
-                <div class="third-title">EDUCATION</div>
-                <div class="third-rest">
-                    <div class="third-sub">UCSD - <span class="howdy-hl">Computer Science</span></div>
-                    <div class="third-sub">M.S. - <span class="howdy-hl">GPA: 3.91</span></div>
-                    <div class="third-sub">B.S. (2012-2015) - <span class="howdy-hl">GPA: 3.94</span></div>
-                    <i>B.S. - summa cum laude</i>
-
-                </div>
-            </div>
-            <div class="third fadein">
-                <div class="third-circle">
-                    <svg width="100%" viewBox="-323 -343 1650 1650" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path class="path1" stroke="#FAFAFA" stroke-width="10" d="M864 159.872l-704 0.128c-17.696 0-32 14.176-32 31.872v448c0 17.696 14.304 32 32 32h704c17.696 0 32-14.304 32-32v-448c0-17.696-14.304-32-32-32zM864 640h-704v-448.128h704v448.128zM928 32h-832c-53.024 0-96 42.944-96 96v640c0 52.928 42.816 95.808 95.68 95.936h320.32v38.944l-199.744 25.952c-14.272 3.552-24.256 16.352-24.256 31.040 0 17.696 14.304 32 32 32h576c17.696 0 32-14.304 32-32 0-14.688-9.984-27.488-24.256-31.072l-199.744-25.92v-38.944h320.32c52.864-0.128 95.68-43.008 95.68-95.936v-640c0-53.056-43.008-96-96-96zM960 768c0 17.632-14.368 32-32 32h-832c-17.664 0-32-14.368-32-32v-640c0-17.664 14.336-32 32-32h832c17.632 0 32 14.336 32 32v640z"></path>
-                    </svg>
-                </div>
-                <div class="third-title">INDUSTRY</div>
-                <div class="third-rest">
-                    <div class="third-sub">CLASSY - <span class="howdy-hl">FALL 2016</span></div>
-                    <div class="third-sub">GOOGLE - <span class="howdy-hl">SUMMER 2016</span></div>
-                    <div class="third-sub">YAHOO - <span class="howdy-hl">SUMMER 2015</span></div>
-                    <div class="third-sub">FORTINET - <span class="howdy-hl">SUMMER 2014</span></div>
-                    Software Engineering Internships except Classy (Product Manager Internship)
-                </div>
-            </div>
-            <div class="third margin-r fadein">
-                <div class="third-circle">
-                    <svg width="100%" viewBox="-344 -313 1700 1700" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path class="path1" stroke="#FAFAFA" stroke-width="15" d="M995.52 906.752c-6.432-4.256-123.136-80.8-296.736-118.368 63.68-80.672 104.576-189.184 121.952-261.408 24.128-100.096 14.752-295.936-81.376-417.984-56.192-71.328-134.816-108.992-227.36-108.992s-171.168 37.696-227.328 108.992c-96.128 122.016-105.472 317.856-81.376 417.952 17.376 72.224 58.24 180.736 121.952 261.408-173.6 37.568-290.304 114.112-296.704 118.368-23.456 15.616-33.952 44.8-25.76 71.744 8.128 27.040 33.056 45.536 61.216 45.536h896c28.192 0 53.056-18.496 61.248-45.504 8.224-26.944-2.272-56.128-25.728-71.744zM648.544 748.736l-10.432 13.248c-76.32 87.68-175.84 87.68-252.128 0l-10.464-13.248c-89.12-112.928-133.344-262.304-114.304-404.8 17.44-136.928 95.904-279.936 250.784-279.936s233.376 143.040 250.816 279.968c18.976 142.56-25.088 291.776-114.272 404.768zM64 960c4.416-2.944 112.832-74.048 274.752-109.056l79.488-17.184c28.384 18.624 59.52 30.24 93.76 30.24 34.272 0 65.376-11.616 93.76-30.24l79.488 17.184c160.64 34.752 268.672 105.056 274.752 109.056h-896z"></path>
-                    </svg>
-                </div>
-                <div class="third-title">LEADERSHIP</div>
-                <div class="third-rest">
-                    <div class="third-sub third-sub2">GOOGLE - <span class="howdy-hl">STUDENT AMBASSADOR</span></div>
-                    <div class="third-sub third-sub2">WARREN COLLEGE - <span class="howdy-hl">PRESIDENT</span></div>
-                    <div class="third-sub third-sub2">CS &amp; ENG SOCIETY - <span class="howdy-hl">VP INTERNAL</span></div>
-                    <div class="third-sub third-sub2">TAU BETA PI - <span class="howdy-hl">TECHNOLOGY CHAIR</span></div>
-                    <div class="third-sub third-sub2">CSE DEPARTMENT - <span class="howdy-hl">TEACHING ASSISTANT</span></div>
-                    <div class="third-sub third-sub2">WRITING CENTER - <span class="howdy-hl">TUTOR</span></div>
-                </div>
-            </div>
-        </div>
-        <div class="resume h-link">
-            DOWNLOAD <span class="resume-word">RESUME</span>
-            <a class="hidden-link" href="JesseQinResume.pdf" target="_blank"></a>
-        </div>
-
-
-    </div>
-
-    <div class="section2">
-        <div class="pastwork">
-            SOME PAST WORK
-            <div class="pastwork-sub">
-                MORE TO COME
-            </div>
-        </div>
-        <div class="projects">
-            <div class="project margin-l fadein2">
-                <div class="project-asset project-asset-r h-link">
-                    <img class="project-img" src="assets/jeopardy.png" alt="jeopardy">
-                    <div class="asset-zoom">
-                        <div class="zoom-box">
-                            <div class="zoom-desc">
-                                Customizable Jeopardy trivia game originally made for UCSD CSE Day. Material Design inspired.
-                            </div>
-                            <div class="zoom-button">
-                                LAUNCH <span class="zoom-word">SITE</span>
-                                <a class="hidden-link" href="http://customjeopardy.com" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-title">
-                    CUSTOM JEOPARDY
-                </div>
-                <div class="project-date">
-                    JANUARY 2016
-                </div>
-
-            </div>
-
-            <div class="project margin-r fadein3">
-                <div class="project-asset project-asset-l h-link">
-                    <img class="project-img" src="assets/meego.png" alt="podcats">
-                    <div class="asset-zoom">
-                        <div class="zoom-box">
-                            <div class="zoom-desc">
-                                Web/Graphic Design for Meego Technology, a motion-based alarm startup based in San Diego.
-                            </div>
-                            <div class="zoom-button">
-                                LAUNCH <span class="zoom-word">SITE</span>
-                                <a class="hidden-link" href="http://meegotech.com" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-title">
-                    MEEGO TECHNOLOGY
-                </div>
-                <div class="project-date">
-                    MARCH 2015
-                </div>
-            </div>
-
-            <div style="font-size: 0;"><br/></div>
-
-            <div class="project margin-l fadein2">
-                <div class="project-asset project-asset-l  h-link">
-                    <img class="project-img" src="assets/wcsc.png" alt="wcsc">
-                    <div class="asset-zoom">
-                        <div class="zoom-box">
-                            <div class="zoom-desc">
-                                Website for the UCSD Warren College Student Council.
-                            </div>
-                            <div class="zoom-button h-link">
-                                LAUNCH <span class="zoom-word">SITE</span>
-                                <a class="hidden-link" href="http://wcsc.ucsd.edu" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-title">
-                    WCSC WEBSITE
-                </div>
-                <div class="project-date">
-                    DECEMBER 2014
-                </div>
-            </div>
-            <div class="project margin-r fadein3">
-                <div class="project-asset project-asset-r  h-link">
-                    <img class="project-img" src="assets/tritonrides.png" alt="tritonrides">
-                    <div class="asset-zoom">
-                        <div class="zoom-box">
-                            <div class="zoom-desc">
-                                Web appliciation designed to help UCSD affiliates give and find rides. Utilizes Google Places API.
-                            </div>
-                            <div class="zoom-button h-link">
-                                LAUNCH <span class="zoom-word">SITE</span>
-                                <a class="hidden-link" href="http://tritonrides.com" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-title">
-                    TRITONRIDES
-                </div>
-                <div class="project-date">
-                    AUGUST 2014
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="footer">
-        &copy; 2015 Jesse Qin. Custom built.
-    </div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
 </body>
 </html>
