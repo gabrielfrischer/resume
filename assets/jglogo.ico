@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="Jesse Qin, Web Designer">
+    <meta name="description" content="Jesse Qin, Web Designer, Software Engineer, B.S. Computer Science, UCSD">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Profile,Resume">
+    <meta name="author" content="Jesse Qin">
+    <meta name=viewport content="width=device-width, initial-scale=.8, minimum-scale = .8, user-scalable=yes">
+    <meta property="og:image" content="./assets/jqlogo-gap.png">
+    <link rel="stylesheet" type="text/css" href="https://jesseqin.com/assets/style/style.css">
+    <link rel="icon" href="https://jesseqin.com/assets/assets/jglogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://jesseqin.com/assets/assets/jqlogo.ico" type="image/x-icon" />
+    <script type="text/javascript" src="https://jesseqin.com/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://jesseqin.com/assets/js/landing.js"></script>
+    <title>Jesse Qin</title>
+</head>
+
+<body>
+    <img style="display: none" src="https://jesseqin.com/assets/assets/jqlogo-gap.png" alt="JQLogo">
+    <div class="mobile-navbar">
+        <div class="jqlogo2 h-link">
+            <a class="hidden-link" href="../index.html"></a>
+            <svg width="100%" viewBox="330 105 340 340" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="#383838" d="M499.835,425c-96.354,0-174.743-78.348-174.743-174.702c0-96.354,78.601-174.722,174.954-174.722
+                S675,153.935,675,250.288c0,48.177-36.422,138.795,0,174.712C628,425,548.012,425,499.835,425z M499.835,147.597
+                c-56.653,0-102.743,46.09-102.743,102.743c0,56.652,46.09,102.743,102.743,102.743c56.652,0,102.743-46.091,102.743-102.743
+                C602.578,193.687,556.487,147.597,499.835,147.597z"/>
+                <path fill="#68D142" d="M602.369,175.814c15.303,21.066,24.209,46.918,24.209,74.526c0,69.887-56.856,126.743-126.743,126.743
+                c-5.599,0-11.181-0.372-16.706-1.105c-3.364-0.446-23.412,19.7-21.044,20.311c12.284,3.166,24.984,4.795,37.75,4.795
+                c83.12,0,150.743-67.623,150.743-150.743c0-32.854-10.611-63.616-28.837-88.678c-0.482-0.663-0.97-1.322-1.462-1.977
+                C615.25,155.062,597.25,170.375,602.369,175.814z"/>
+                <path fill="#53E59B" d="M604.426,138.74c0.172,12.017-9.432,21.899-21.449,22.071c-12.016,0.172-21.898-9.43-22.068-21.449
+                c-0.174-12.016,9.43-21.897,21.447-22.07C594.371,117.121,604.254,126.724,604.426,138.74z"/>
+                <path fill="#565656" d="M349.056,267.675c1.678,14.796,5.562,29.43,11.697,43.394c1.437,3.019,21.592-11.591,20.01-14.364
+                c-4.661-11.904-7.427-24.322-8.338-36.816C371.774,256.068,348.271,261.956,349.056,267.675z"/>
+                <path fill="#565656" d="M361.486,188.364c-6.152,13.56-10.329,28.114-12.228,43.247c-0.317,3.327,24.478,1.131,24.542-2.059
+                c2.112-12.61,6.11-24.687,11.74-35.879C386.943,190.063,363.749,183.053,361.486,188.364z"/>
+                <path fill="#565656" d="M412.684,126.798c-12.227,8.498-23.266,18.861-32.647,30.888c-1.976,2.694,20.447,13.506,22.136,10.797
+                c8.271-9.75,17.888-18.076,28.455-24.807C433.682,141.29,417.346,123.395,412.684,126.798z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="burger-icon">
+        <div class="burger-icon-inner">
+            <div class="bar1 bar"></div>
+            <div class="bar2 bar">
+                <div class="navigation-mobile">
+                    <div class="m-nav-block">
+                        <div class="m-nav-button nav-about">
+                            ABOUT
+                        </div>
+                        <div class="m-nav-button nav-projects">
+                            PROJECTS
+                        </div>
+                        <div class="m-nav-button nav-contact">
+                            CONTACT
+                        </div>
+                        <div class="m-nav-button h-link">
+                            <a class="hidden-link" href="https://jesseqin.com/assets/JesseQinResume.pdf" target="_blank"></a>
+                            RESUME
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar3 bar"></div>
+        </div>
+    </div>
+
+    <div class="landing-noise">
+        <div class="landing">
+            <div class="landing-night"></div>
+            <div class="mountains">
+                <svg class="svg-mountains-1" width="100%" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="mountains-1" d="M -2 0 l 40 60 l 5 -20 l 5 10 l 15 -40 l 50 90 l 10 -20 l 5 10 l 50 -85 l 50 140 l 15 -25 l 5 -10 l 55 45 l 10 -20 l 5 10 l 60 -140 l 100 150 l 5 -10 l 5 5 l 10 -20 l 5 5 l 30 -70 l 70 90 l 20 -30 l 5 5 l 20 -30 l 60 50 l 10 -5 l 100 100 l -1000 0"  stroke="#9E7748" stroke-width="2" fill="#000000"></path>
+                    <path class="mountains-1-night" d="M -2 0 l 40 60 l 5 -20 l 5 10 l 15 -40 l 50 90 l 10 -20 l 5 10 l 50 -85 l 50 140 l 15 -25 l 5 -10 l 55 45 l 10 -20 l 5 10 l 60 -140 l 100 150 l 5 -10 l 5 5 l 10 -20 l 5 5 l 30 -70 l 70 90 l 20 -30 l 5 5 l 20 -30 l 60 50 l 10 -5 l 100 100 l -1000 0"  stroke="#021435" stroke-width="2" fill="#000000"></path>
+                </svg>
+            </div>
+            <div class="mountains2">
+                <svg class="svg-mountains-2" width="100%" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="mountains-2" d="M 800 0 l -60 70 l -10 -20 l -5 10 l -25 -40 l -20 45 l -5 -10 l -35 60 l -5 -10 l -5 5 l -50 -75 l -60 95 l -10 -20 l -5 10 l -30 -55 l -70 80 l -10 -20 l -5 5 l -60 -100 l -100 110 l -5 -5 l -30 35 l -70 -80 l -50 60 l -5 -5 l -5 5 l -5 -10 l -60 60 l 0 200 l 1000 0"  stroke="#795028" stroke-width="2" fill="#021435"></path>
+                    <path class="mountains-2-night" d="M 800 0 l -60 70 l -10 -20 l -5 10 l -25 -40 l -20 45 l -5 -10 l -35 60 l -5 -10 l -5 5 l -50 -75 l -60 95 l -10 -20 l -5 10 l -30 -55 l -70 80 l -10 -20 l -5 5 l -60 -100 l -100 110 l -5 -5 l -30 35 l -70 -80 l -50 60 l -5 -5 l -5 5 l -5 -10 l -60 60 l 0 200 l 1000 0"  stroke="#000000" stroke-width="2" fill="#000000"></path>
+                </svg>
+            </div>
+            <div class="sun">
+                <svg class="svg-sun" width="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="sun-1" d="M 15 120 a45,45 0 0,1 220,0 a-45,-45, 0 0,1 -220,0"  stroke="#FFF103" stroke-width="3" fill="#FFF103"></path>
+                </svg>
+            </div>
+            <div class="moon">
+                <svg class="svg-moon" width="100%" viewBox="-40 0 370 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="moon-1" d="M201,224.694c-33.907,0-66.801-13.633-90.765-37.597C86.272,163.135,72.64,130.241,72.64,96.333
+                    c0-28.606,9.703-56.49,27.126-78.9c-17.678,6.888-33.937,17.381-47.523,30.968c-25.764,25.763-40.419,61.126-40.419,97.581
+                    s14.656,71.817,40.419,97.581c25.763,25.763,61.126,40.419,97.581,40.419s71.817-14.656,97.581-40.419
+                    c12.592-12.593,22.521-27.481,29.393-43.667C254.942,215.85,228.302,224.694,201,224.694z"  stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF"></path>
+                </svg>
+            </div>
+            <div class="cloud cloud1">
+                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
+                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
+                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
+                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
+                </svg>
+            </div>
+            <div class="cloud cloud2">
+                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
+                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
+                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
+                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
+                </svg>
+            </div>
+            <div class="cloud cloud3">
+                <svg class="svg-cloud-1" width="100%" viewBox="90 80 330 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path class="cloud-1" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF" d="M321.667,234h-1.21c3.544-7.306,5.543-15.454,5.543-24c0-30.527-25.474-56-56-56
+                    c-23.719,0-44.38,15.382-52.419,36.561C213.688,188.916,209.436,188,205,188c-17.989,0-33,15.011-33,33
+                    c0,4.682,1.024,9.158,2.846,13.225c-14.213,1.767-25.513,14.146-25.513,28.775c0,15.809,13.191,29,29,29h143.333
+                    c15.809,0,29-13.191,29-29S337.476,234,321.667,234z"/>
+                </svg>
+            </div>
+            <div class="landing-text">
+                <div class="jqtext">
+                    <svg class="svg-jqtext" width="100%" viewBox="87 45 824 200" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path class="jqt-j jqt" stroke="#000000" stroke-width="3" d="M141.75,66.723h19.922V166.82c0,13.477-3.581,24.204-10.742,32.178c-7.163,7.976-16.374,11.963-27.637,11.963
+                        c-12.109,0-21.713-3.531-28.809-10.596c-7.097-7.063-10.515-17.366-10.254-30.908l0.293-0.586h19.043
+                        c0,9.18,1.741,15.983,5.225,20.41c3.482,4.428,8.316,6.641,14.502,6.641c5.403,0,9.83-2.62,13.281-7.861
+                        c3.45-5.24,5.176-12.32,5.176-21.24V66.723z"></path>
+                        <path class="jqt-e jqt" stroke="#000000" stroke-width="3" d="M256.593,142.895h-48.242v50.977h56.836v15.039h-76.66V66.723h76.172v15.234h-56.348v45.801h48.242V142.895z"></path>
+                        <path class="jqt-s jqt" stroke="#000000" stroke-width="3" d="M349.953,173.168c0-6.509-1.855-11.865-5.566-16.064s-10.254-8.023-19.629-11.475
+                        c-13.347-4.166-23.601-9.537-30.762-16.113c-7.163-6.575-10.742-15.332-10.742-26.27c0-11.197,3.955-20.425,11.865-27.686
+                        c7.91-7.259,18.05-10.889,30.42-10.889c13.15,0,23.697,4.038,31.641,12.109c7.942,8.073,11.783,18.198,11.523,30.371l-0.195,0.586
+                        h-19.043c0-8.333-2.214-15.071-6.641-20.215c-4.428-5.142-10.254-7.715-17.48-7.715c-7.031,0-12.485,2.214-16.357,6.641
+                        c-3.874,4.428-5.811,9.961-5.811,16.602c0,6.186,2.051,11.296,6.152,15.332c4.102,4.038,11.001,7.846,20.703,11.426
+                        c12.955,4.233,22.818,9.766,29.59,16.602c6.771,6.836,10.156,15.69,10.156,26.562c0,11.589-3.989,20.817-11.963,27.686
+                        c-7.976,6.87-18.442,10.303-31.396,10.303c-12.5,0-23.374-3.711-32.617-11.133c-9.245-7.422-13.706-18.066-13.379-31.934
+                        l0.195-0.586h19.141c0,9.636,2.554,16.831,7.666,21.582c5.11,4.753,11.441,7.129,18.994,7.129c7.356,0,13.118-2.066,17.285-6.201
+                        C347.868,185.685,349.953,180.135,349.953,173.168z"></path>
+                        <path class="jqt-s jqt" stroke="#000000" stroke-width="3" d="M456.789,173.168c0-6.509-1.855-11.865-5.566-16.064s-10.254-8.023-19.629-11.475
+                        c-13.347-4.166-23.601-9.537-30.762-16.113c-7.163-6.575-10.742-15.332-10.742-26.27c0-11.197,3.955-20.425,11.865-27.686
+                        c7.91-7.259,18.05-10.889,30.42-10.889c13.15,0,23.697,4.038,31.641,12.109c7.942,8.073,11.783,18.198,11.523,30.371l-0.195,0.586
+                        H456.3c0-8.333-2.214-15.071-6.641-20.215c-4.428-5.142-10.254-7.715-17.48-7.715c-7.031,0-12.485,2.214-16.357,6.641
+                        c-3.874,4.428-5.811,9.961-5.811,16.602c0,6.186,2.051,11.296,6.152,15.332c4.102,4.038,11.001,7.846,20.703,11.426
+                        c12.955,4.233,22.818,9.766,29.59,16.602c6.771,6.836,10.156,15.69,10.156,26.562c0,11.589-3.988,20.817-11.963,27.686
+                        c-7.976,6.87-18.442,10.303-31.396,10.303c-12.5,0-23.374-3.711-32.617-11.133c-9.245-7.422-13.706-18.066-13.379-31.934
+                        l0.195-0.586h19.141c0,9.636,2.554,16.831,7.666,21.582c5.11,4.753,11.441,7.129,18.994,7.129c7.356,0,13.118-2.066,17.285-6.201
+                        C454.704,185.685,456.789,180.135,456.789,173.168z"></path>
+                        <path class="jqt-e jqt" stroke="#000000" stroke-width="3" d="M566.848,142.895h-48.242v50.977h56.836v15.039h-76.661V66.723h76.172v15.234h-56.348v45.801h48.242V142.895z"></path>
+                        <path class="jqt-q jqt" stroke="#000000" stroke-width="3" d="M735.012,157.445c0,7.031-0.848,13.461-2.539,19.287c-1.693,5.827-4.102,10.954-7.227,15.381l17.773,19.629l-13.184,11.426
+                        l-17.578-19.141c-3.842,2.344-8.074,4.086-12.695,5.225c-4.623,1.138-9.57,1.709-14.844,1.709
+                        c-15.105,0-27.117-4.703-36.035-14.111c-8.92-9.407-13.379-22.542-13.379-39.404v-39.062c0-16.797,4.459-29.947,13.379-39.453
+                        c8.918-9.505,20.898-14.258,35.938-14.258c15.299,0,27.521,4.736,36.67,14.209c9.146,9.473,13.721,22.641,13.721,39.502V157.445z
+                        M715.285,118.09c0-12.369-2.654-21.761-7.959-28.174c-5.307-6.412-12.875-9.619-22.705-9.619c-9.506,0-16.814,3.208-21.924,9.619
+                        c-5.111,6.413-7.666,15.805-7.666,28.174v39.355c0,12.5,2.57,21.973,7.715,28.418c5.143,6.445,12.467,9.668,21.973,9.668
+                        c9.83,0,17.383-3.206,22.656-9.619c5.273-6.412,7.91-15.901,7.91-28.467V118.09z"></path>
+                        <path class="jqt-i jqt" stroke="#000000" stroke-width="3" d="M782.375,208.91h-19.824V66.723h19.824V208.91z"></path>
+                        <path class="jqt-n jqt" stroke="#000000" stroke-width="3" d="M906.789,208.91h-19.922l-55.078-104.883l-0.586,0.195V208.91h-19.824V66.723h19.824l55.078,104.59l0.586-0.098V66.723
+                        h19.922V208.91z"></path>
+                    </svg>
+                </div>
+                <div class="jqtext2nd">
+                    <div class="jqtext2">WEB DEVELOPER, SW ENGINEER</div>
+                    <div class="jqtext3	">M.S. COMPUTER SCIENCE STUDENT, UCSD</div>
+                </div>
+            </div>
+            <div class="birds">
+                <div class="bird bird1">
+                    <div class="bird-left">
+                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
+                        </svg>
+                    </div>
+                    <div class="bird-right">
+                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="bird bird2">
+                    <div class="bird-left">
+                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
+                        </svg>
+                    </div>
+                    <div class="bird-right">
+                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="bird bird3">
+                    <div class="bird-left">
+                        <svg class="svg-bird-left" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-left-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 40 40 c 0 0 -8 -22 -35 -15"/>
+                        </svg>
+                    </div>
+                    <div class="bird-right">
+                        <svg class="svg-bird-right" width="100%" viewBox="0 0 40 40" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path class="bird-right-1" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" d="M 0 40 c 0 0 8 -22 35 -15"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="grass">
+                <div class="grass-night"></div>
+                <div class="navigation">
+                    <div class="nav-button margin-l nav-about">ABOUT</div>
+                    <div class="nav-button nav-projects">PROJECTS</div>
+                    <div class="nav-button">
+                        <div class="jqlogo h-link">
+                            <a class="hidden-link" href="../index.html"></a>
+                            <svg width="100%" viewBox="330 105 340 340" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path fill="#383838" d="M499.835,425c-96.354,0-174.743-78.348-174.743-174.702c0-96.354,78.601-174.722,174.954-174.722
+                                S675,153.935,675,250.288c0,48.177-36.422,138.795,0,174.712C628,425,548.012,425,499.835,425z M499.835,147.597
+                                c-56.653,0-102.743,46.09-102.743,102.743c0,56.652,46.09,102.743,102.743,102.743c56.652,0,102.743-46.091,102.743-102.743
+                                C602.578,193.687,556.487,147.597,499.835,147.597z"/>
+                                <path fill="#68D142" d="M602.369,175.814c15.303,21.066,24.209,46.918,24.209,74.526c0,69.887-56.856,126.743-126.743,126.743
+                                c-5.599,0-11.181-0.372-16.706-1.105c-3.364-0.446-23.412,19.7-21.044,20.311c12.284,3.166,24.984,4.795,37.75,4.795
+                                c83.12,0,150.743-67.623,150.743-150.743c0-32.854-10.611-63.616-28.837-88.678c-0.482-0.663-0.97-1.322-1.462-1.977
+                                C615.25,155.062,597.25,170.375,602.369,175.814z"/>
+                                <path fill="#53E59B" d="M604.426,138.74c0.172,12.017-9.432,21.899-21.449,22.071c-12.016,0.172-21.898-9.43-22.068-21.449
+                                c-0.174-12.016,9.43-21.897,21.447-22.07C594.371,117.121,604.254,126.724,604.426,138.74z"/>
+                                <path fill="#565656" d="M349.056,267.675c1.678,14.796,5.562,29.43,11.697,43.394c1.437,3.019,21.592-11.591,20.01-14.364
+                                c-4.661-11.904-7.427-24.322-8.338-36.816C371.774,256.068,348.271,261.956,349.056,267.675z"/>
+                                <path fill="#565656" d="M361.486,188.364c-6.152,13.56-10.329,28.114-12.228,43.247c-0.317,3.327,24.478,1.131,24.542-2.059
+                                c2.112-12.61,6.11-24.687,11.74-35.879C386.943,190.063,363.749,183.053,361.486,188.364z"/>
+                                <path fill="#565656" d="M412.684,126.798c-12.227,8.498-23.266,18.861-32.647,30.888c-1.976,2.694,20.447,13.506,22.136,10.797
+                                c8.271-9.75,17.888-18.076,28.455-24.807C433.682,141.29,417.346,123.395,412.684,126.798z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="nav-button nav-contact">CONTACT</div>
+                    <div class="nav-button margin-r h-link">
+                        <a class="hidden-link" href="https://jesseqin.com/assets/JesseQinResume.pdf" target="_blank"></a>
+                        RESUME
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-arrow">
+                <svg width="100%" viewBox="42 15 924 924" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- 	<path class="icon-arrow-down" fill="#09B300" d="M792.73 438.426c-20.838 21.402-240.384 230.554-240.384 230.554-11.162 11.418-25.754 17.101-40.346 17.101-14.643 0-29.235-5.683-40.346-17.101 0 0-219.546-209.152-240.435-230.554-20.838-21.402-22.272-59.853 0-82.739 22.323-22.835 53.402-24.627 80.691 0l200.090 191.898 200.038-191.846c27.341-24.627 58.47-22.835 80.691 0 22.323 22.835 20.941 61.338 0 82.688z"></path> -->
+                    <path class="icon-arrow-down" fill="#09B300" <path class="path1" d="M687.002 389.171c13.875-13.722 36.301-13.722 50.125 0 13.875 13.722 13.875 35.891 0 49.613l-200.038 196.096c-13.875 13.722-36.301 13.722-50.125 0l-200.090-196.096c-13.824-13.722-13.824-35.891 0-49.613 13.875-13.722 36.25-13.722 50.125 0l175.002 160.768 175.002-160.768z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section1">
+
+        <div class="howdy fadein">
+            <div class="howdy-big-text">
+                <svg width="100%" viewBox="1 -4 176 59" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#454545" stroke-width="0" stroke="#454545">
+                    <path d="M9.425,32.921v26.288H2.916V0.791h6.509v26.288h14.354V0.791h6.509v58.418h-6.509V32.921H9.425z"/>
+                    <path d="M36.463,14.896c0-8.93,4.423-14.688,13.353-14.688c9.013,0,13.437,5.759,13.437,14.688v30.211
+                    c0,8.846-4.424,14.687-13.437,14.687c-8.93,0-13.353-5.841-13.353-14.687V14.896z M42.889,45.44c0,5.339,2.253,8.428,6.927,8.428
+                    c4.757,0,6.927-3.089,6.927-8.428V14.562c0-5.258-2.17-8.429-6.927-8.429c-4.674,0-6.927,3.171-6.927,8.429V45.44z"/>
+                    <path d="M84.949,59.209h-8.931L68.008,0.791h6.343l6.843,49.738l6.51-49.654h6.427l6.425,49.738l6.595-49.822h5.673l-7.927,58.418
+                    H96.3l-5.593-39.641L84.949,59.209z"/>
+                    <path d="M131.766,0.791c9.096,0,13.269,5.509,13.269,14.521v29.46c0,8.93-4.173,14.437-13.269,14.437h-13.687V0.791H131.766z
+                    M131.682,53.284c4.673,0,6.927-2.921,6.927-8.262V14.979c0-5.341-2.254-8.263-7.011-8.263h-7.009v46.568H131.682z"/>
+                    <path d="M160.221,38.262L147.87,0.791h6.76l9.098,28.709l9.179-28.709h6.178l-12.437,37.471v20.947h-6.427V38.262z"/>
+                </svg>
+            </div>
+            <span class="howdy-rest">I'm <span class="howdy-hl">Jesse Qin</span>, a master's student at UCSD studying computer science. I like running, climbing, and creating <span class="howdy-hl">aesthetic &amp; functional</span> design. </span>
+            <div class="line-1"></div>
+        </div>
+
+        <div class="threes">
+            <div class="third margin-l fadein">
+                <div class="third-circle">
+                    <svg width="100%" viewBox="-205 -285 1400 1400" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path class="third-circle-1" stroke="#FAFAFA" stroke-width="23" d="M1024 256c0-44.992-30.624-83.456-74.432-93.568l-416.416-96.096c-6.976-1.568-14.080-2.336-21.152-2.336s-14.176 0.768-21.6 2.432l-415.968 96c-43.84 10.112-74.432 48.576-74.432 93.568s30.624 83.456 74.4 93.568l85.6 19.744v270.688c0 84.928 97.216 160 352 160s352-75.072 352-160v-270.688l85.568-19.744c43.808-10.112 74.432-48.576 74.432-93.568zM800 640c0 35.36-96 96-288 96s-288-60.64-288-96v-255.904l266.816 61.568c6.976 1.568 14.112 2.336 21.184 2.336s14.208-0.768 21.568-2.432l266.432-61.472v255.904zM519.2 383.2c-2.4 0.512-4.8 0.8-7.2 0.8s-4.832-0.288-7.2-0.8l-416-96c-14.528-3.36-24.8-16.288-24.8-31.2s10.272-27.84 24.8-31.2l416-96c2.368-0.512 4.768-0.8 7.2-0.8s4.832 0.288 7.2 0.8l416 96c14.496 3.36 24.8 16.288 24.8 31.2s-10.304 27.84-24.8 31.2l-416 96zM928 416 "></path>
+                    </svg>
+                </div>
+                <div class="third-title">EDUCATION</div>
+                <div class="third-rest">
+                    <div class="third-sub">UCSD - <span class="howdy-hl">Computer Science</span></div>
+                    <div class="third-sub">M.S. - <span class="howdy-hl">GPA: 3.91</span></div>
+                    <div class="third-sub">B.S. (2012-2015) - <span class="howdy-hl">GPA: 3.94</span></div>
+                    <i>B.S. - summa cum laude</i>
+
+                </div>
+            </div>
+            <div class="third fadein">
+                <div class="third-circle">
+                    <svg width="100%" viewBox="-323 -343 1650 1650" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path class="path1" stroke="#FAFAFA" stroke-width="10" d="M864 159.872l-704 0.128c-17.696 0-32 14.176-32 31.872v448c0 17.696 14.304 32 32 32h704c17.696 0 32-14.304 32-32v-448c0-17.696-14.304-32-32-32zM864 640h-704v-448.128h704v448.128zM928 32h-832c-53.024 0-96 42.944-96 96v640c0 52.928 42.816 95.808 95.68 95.936h320.32v38.944l-199.744 25.952c-14.272 3.552-24.256 16.352-24.256 31.040 0 17.696 14.304 32 32 32h576c17.696 0 32-14.304 32-32 0-14.688-9.984-27.488-24.256-31.072l-199.744-25.92v-38.944h320.32c52.864-0.128 95.68-43.008 95.68-95.936v-640c0-53.056-43.008-96-96-96zM960 768c0 17.632-14.368 32-32 32h-832c-17.664 0-32-14.368-32-32v-640c0-17.664 14.336-32 32-32h832c17.632 0 32 14.336 32 32v640z"></path>
+                    </svg>
+                </div>
+                <div class="third-title">INDUSTRY</div>
+                <div class="third-rest">
+                    <div class="third-sub">CLASSY - <span class="howdy-hl">FALL 2016</span></div>
+                    <div class="third-sub">GOOGLE - <span class="howdy-hl">SUMMER 2016</span></div>
+                    <div class="third-sub">YAHOO - <span class="howdy-hl">SUMMER 2015</span></div>
+                    <div class="third-sub">FORTINET - <span class="howdy-hl">SUMMER 2014</span></div>
+                    Software Engineering Internships except Classy (Product Manager Internship)
+                </div>
+            </div>
+            <div class="third margin-r fadein">
+                <div class="third-circle">
+                    <svg width="100%" viewBox="-344 -313 1700 1700" version="1.1" overflow="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path class="path1" stroke="#FAFAFA" stroke-width="15" d="M995.52 906.752c-6.432-4.256-123.136-80.8-296.736-118.368 63.68-80.672 104.576-189.184 121.952-261.408 24.128-100.096 14.752-295.936-81.376-417.984-56.192-71.328-134.816-108.992-227.36-108.992s-171.168 37.696-227.328 108.992c-96.128 122.016-105.472 317.856-81.376 417.952 17.376 72.224 58.24 180.736 121.952 261.408-173.6 37.568-290.304 114.112-296.704 118.368-23.456 15.616-33.952 44.8-25.76 71.744 8.128 27.040 33.056 45.536 61.216 45.536h896c28.192 0 53.056-18.496 61.248-45.504 8.224-26.944-2.272-56.128-25.728-71.744zM648.544 748.736l-10.432 13.248c-76.32 87.68-175.84 87.68-252.128 0l-10.464-13.248c-89.12-112.928-133.344-262.304-114.304-404.8 17.44-136.928 95.904-279.936 250.784-279.936s233.376 143.040 250.816 279.968c18.976 142.56-25.088 291.776-114.272 404.768zM64 960c4.416-2.944 112.832-74.048 274.752-109.056l79.488-17.184c28.384 18.624 59.52 30.24 93.76 30.24 34.272 0 65.376-11.616 93.76-30.24l79.488 17.184c160.64 34.752 268.672 105.056 274.752 109.056h-896z"></path>
+                    </svg>
+                </div>
+                <div class="third-title">LEADERSHIP</div>
+                <div class="third-rest">
+                    <div class="third-sub third-sub2">GOOGLE - <span class="howdy-hl">STUDENT AMBASSADOR</span></div>
+                    <div class="third-sub third-sub2">WARREN COLLEGE - <span class="howdy-hl">PRESIDENT</span></div>
+                    <div class="third-sub third-sub2">CS &amp; ENG SOCIETY - <span class="howdy-hl">VP INTERNAL</span></div>
+                    <div class="third-sub third-sub2">TAU BETA PI - <span class="howdy-hl">TECHNOLOGY CHAIR</span></div>
+                    <div class="third-sub third-sub2">CSE DEPARTMENT - <span class="howdy-hl">TEACHING ASSISTANT</span></div>
+                    <div class="third-sub third-sub2">WRITING CENTER - <span class="howdy-hl">TUTOR</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="resume h-link">
+            DOWNLOAD <span class="resume-word">RESUME</span>
+            <a class="hidden-link" href="https://jesseqin.com/assets/JesseQinResume.pdf" target="_blank"></a>
+        </div>
+
+
+    </div>
+
+    <div class="section2">
+        <div class="pastwork">
+            SOME PAST WORK
+            <div class="pastwork-sub">
+                MORE TO COME
+            </div>
+        </div>
+        <div class="projects">
+            <div class="project margin-l fadein2">
+                <div class="project-asset project-asset-r h-link">
+                    <img class="project-img" src="https://jesseqin.com/assets/assets/jeopardy.png" alt="jeopardy">
+                    <div class="asset-zoom">
+                        <div class="zoom-box">
+                            <div class="zoom-desc">
+                                Customizable Jeopardy trivia game originally made for UCSD CSE Day. Material Design inspired.
+                            </div>
+                            <div class="zoom-button">
+                                LAUNCH <span class="zoom-word">SITE</span>
+                                <a class="hidden-link" href="http://customjeopardy.com" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-title">
+                    CUSTOM JEOPARDY
+                </div>
+                <div class="project-date">
+                    JANUARY 2016
+                </div>
+
+            </div>
+
+            <div class="project margin-r fadein3">
+                <div class="project-asset project-asset-l h-link">
+                    <img class="project-img" src="https://jesseqin.com/assets/assets/meego.png" alt="podcats">
+                    <div class="asset-zoom">
+                        <div class="zoom-box">
+                            <div class="zoom-desc">
+                                Web/Graphic Design for Meego Technology, a motion-based alarm startup based in San Diego.
+                            </div>
+                            <div class="zoom-button">
+                                LAUNCH <span class="zoom-word">SITE</span>
+                                <a class="hidden-link" href="http://meegotech.com" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-title">
+                    MEEGO TECHNOLOGY
+                </div>
+                <div class="project-date">
+                    MARCH 2015
+                </div>
+            </div>
+
+            <div style="font-size: 0;"><br/></div>
+
+            <div class="project margin-l fadein2">
+                <div class="project-asset project-asset-l  h-link">
+                    <img class="project-img" src="https://jesseqin.com/assets/assets/wcsc.png" alt="wcsc">
+                    <div class="asset-zoom">
+                        <div class="zoom-box">
+                            <div class="zoom-desc">
+                                Website for the UCSD Warren College Student Council.
+                            </div>
+                            <div class="zoom-button h-link">
+                                LAUNCH <span class="zoom-word">SITE</span>
+                                <a class="hidden-link" href="http://wcsc.ucsd.edu" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-title">
+                    WCSC WEBSITE
+                </div>
+                <div class="project-date">
+                    DECEMBER 2014
+                </div>
+            </div>
+            <div class="project margin-r fadein3">
+                <div class="project-asset project-asset-r  h-link">
+                    <img class="project-img" src="https://jesseqin.com/assets/assets/tritonrides.png" alt="tritonrides">
+                    <div class="asset-zoom">
+                        <div class="zoom-box">
+                            <div class="zoom-desc">
+                                Web appliciation designed to help UCSD affiliates give and find rides. Utilizes Google Places API.
+                            </div>
+                            <div class="zoom-button h-link">
+                                LAUNCH <span class="zoom-word">SITE</span>
+                                <a class="hidden-link" href="http://tritonrides.com" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-title">
+                    TRITONRIDES
+                </div>
+                <div class="project-date">
+                    AUGUST 2014
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        &copy; 2015 Jesse Qin. Custom built.
+    </div>
+</body>
+</html>
