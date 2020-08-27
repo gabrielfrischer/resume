@@ -935,8 +935,14 @@
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+               <li id="datecr"></li>
+               <script>
+                  year = new Date().getFullYear
+                  string = `&copy; Copyright ${year} CV/Resume`
+                  console.log(string)
+                  document.getElementById('datecr').innerHTML = string
+               </script>
+               <li>Designed by Gabriel Frischer</li>   
             </ul>
 
          </div>
