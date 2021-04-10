@@ -29,8 +29,80 @@
 
    <!-- Favicons
 	================================================== -->
-    <link rel="icon" href="./assets/jglogo.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="./assets/jqlogo.ico" type="image/x-icon" />
+    <style>
+      .mailto-link {
+         position: relative;
+         padding: 8px 0;
+      }
+      .mailto-message {
+         top: 1px;
+         left: 50%;
+         margin-bottom: -5px;
+         transform: translate(-50%, -100%);
+         position: absolute;
+         display: none;
+         width: auto;
+         white-space: nowrap;
+         font-size: 12px;
+         background-color: black;
+         color: white;
+         padding: 2px 6px;
+         border-radius: 2px;
+         &:after,
+         &:before {
+            content: '';
+         }
+         &:before {
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: rgba(0, 0, 0, 0);
+            border-top-color: #000000;
+            border-width: 4px;
+            margin-left: -4px;
+         }
+      }
+      .mailto-link:hover .mailto-message,
+      .mailto-link:focus .mailto-message,
+      .mailto-link:focus-within .mailto-message {
+         display: block;
+      }
+      
+      // styling below for fancy looks only
+      body {
+         padding: 3em calc((100% - 75vw) / 2);
+         line-height: 1.5;
+         background-color: papayawhip;
+         text-align: center;
+      }
+      .well {
+         padding: 2em;
+         background-color: rgba(black, .03);
+         border-radius: 1em;
+         box-shadow: inset 0 2px 4px rgba(black, .05);
+      }
+      h2 {
+         font-weight: 400;
+         margin-top: 0;
+      }
+      code {
+         background-color: #e8f0e7;
+         padding: 3px 6px;
+      }
+      input {
+         padding: .6em 1.2em;
+         border: 0;
+         border-radius: 4px;
+         font-size: 1.3em;
+         text-align: center;
+         &:focus {
+            box-shadow: 0 0 3px 0 #b17b22;}
+      }
+    </style>
 </head>
 
 <body>
@@ -59,15 +131,7 @@
             <h1 class="responsive-headline">My name is Gabriel. <br> I create software to help your business grow.</h1>
 
             <hr />
-            <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
+
          </div>
       </div>
 
@@ -94,7 +158,7 @@
 
             <h2>About Me</h2>
 
-            <p>I love software, it is my passion. Let's create something wonderful together. 
+            <p>I love software, it is my passion. Let's create something amazing together. 
             </p>
 
             <div class="row">
@@ -728,9 +792,8 @@
 
          <div class="seven columns">
 
-            <h2><span class="lead">Unde Omnis Iste</span></h2>
-            <p><span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae. </span></p>
+            <h2><span class="lead">Let's work together</span></h2>
+            <p><span class="lead">Contact me below. </span></p>
 
          </div>
 
@@ -756,111 +819,26 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
 
             </div>
 
             <div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+               <div class="well">
+                  <h2>Try it out!</h2>
+                  <p>
+                     <a class="button" style="background-color: purple; padding:20px" href="mailto:gabrielfrischer@gmail.com">Click to Copy my Email into Clipboard</a>
                   </p>
-
+                  <p>
+                     <label for="test">Paste here to test</label>
+                     <br>
+                     <input id="test" type="text">
+                  </p>
+               </div>
             </div>
 
          </div>
 
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
-      </div>
+   
 
    </section> <!-- Contact Section End-->
 
@@ -873,20 +851,11 @@
 
          <div class="twelve columns">
 
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
 
             <ul class="copyright">
                <li id="datecr"></li>
                <script>
-                  year = new Date().getFullYear
+                  year = new Date().getFullYear()
                   string = `&copy; Copyright ${year} CV/Resume`
                   console.log(string)
                   document.getElementById('datecr').innerHTML = string
@@ -913,6 +882,52 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+
+   <script>
+
+      $(document).ready(function() {
+	
+         // Add class to mailto link
+         // Needed to separate the disabling of the default action AND copy email to clipboard
+         $('a[href^=mailto]').addClass('mailto-link');
+      
+         var mailto = $('.mailto-link');
+         var messageCopy = 'Click to copy email address';
+         var messageSuccess = 'Email address copied to clipboard';
+         
+         mailto.append('<span class="mailto-message"></span>');
+         $('.mailto-message').append(messageCopy);
+         
+         // Disable opening your email client. yuk.
+         $('a[href^=mailto]').click(function() {
+            return false; 
+         })
+         
+         // On click, get href and remove 'mailto:' from value
+         // Store email address in a variable.
+         mailto.click(function() {
+            var href = $(this).attr('href');
+            var email = href.replace('mailto:', '');
+            copyToClipboard(email);
+            $('.mailto-message').empty().append(messageSuccess);
+            setTimeout(function() {
+               $('.mailto-message').empty().append(messageCopy);}, 2000); 
+         });
+         
+      });
+      
+      // Grabbed this from Stack Overflow.
+      // Copies the email variable to clipboard
+      function copyToClipboard(text) {
+          var dummy = document.createElement("input");
+          document.body.appendChild(dummy);
+          dummy.setAttribute('value', text);
+          dummy.select();
+          document.execCommand('copy');
+          document.body.removeChild(dummy);
+      }
+   </script>
+
 
 </body>
 
